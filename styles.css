@@ -44,8 +44,19 @@ body {
     display: flex;
     gap: 100px;
     color: #FFFFFF;
-    justify-content: space-evenly;
+}
 
+.lets {
+    margin-top: 70px;
+    height: auto;
+    width: 30%;
+    margin-left: 100px;
+}
+
+.cloud {
+    align-self: flex-end;
+    margin-bottom: -4px;
+    margin-left: auto;
 }
 
 .second h1 {
@@ -58,19 +69,6 @@ body {
     font-size: 120%;
     height: auto;
     width: 400px;
-}
-
-.lets {
-    margin-top: 100px;
-    height: auto;
-    width: 30%;
-    position: relative;
-}
-
-.cloud {
-    align-self: flex-end;
-    margin-bottom: -4px;
-    margin-left: auto;
 }
 
 .third div {
@@ -103,8 +101,6 @@ body {
     flex-direction: column;
     height: auto;
     width: 500px;
-    margin-left: 10px;
- 
 }
 
 .qonkur-phone {
@@ -122,12 +118,28 @@ body {
     font-size: larger;
     font-weight: bold;
     border-radius: 8px;
+    margin-top: 20px;
 }
 
 .newextension button:hover {
     background-color: white;
     color: black;
     transition-duration: 0.5s;
+}
+
+.newextension h4 {
+    color: #77c63b;
+    font-size: large;
+    margin-bottom: -10px;
+}
+
+.newextension h1 {
+    font-size: 300%;
+    font-weight: 2000;
+}
+
+.newextension p {
+    font-size: medium;
 }
 
 
