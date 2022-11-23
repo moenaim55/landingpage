@@ -44,34 +44,33 @@ body {
     display: flex;
     gap: 100px;
     color: #FFFFFF;
-    justify-content: space-between;
-    flex-wrap: nowrap;
+    justify-content: space-evenly;
+
 }
 
 .second h1 {
     font-size: 350%;
+    height: auto;
+    width: 600px;
 }
 
 .second p {
     font-size: 120%;
+    height: auto;
+    width: 400px;
 }
 
 .lets {
-    margin-left: 80px;
-    margin-top: 80px;
-    text-align: left;
+    margin-top: 100px;
     height: auto;
     width: 30%;
     position: relative;
 }
 
 .cloud {
+    align-self: flex-end;
     margin-bottom: -4px;
-    
-}
-
-#random {
-    text-align: center;
+    margin-left: auto;
 }
 
 .third div {
@@ -79,6 +78,7 @@ body {
     gap: 25px;
     align-items: center;
     justify-content: center;
+    margin-top: -9px;
 }
 
 .pictext {
@@ -92,24 +92,44 @@ body {
     padding: 100px;
 }
 
-.quote {
-    text-align: center;
-    margin-left: 300px;
-    margin-right: 300px;
-    font-size: larger;
-    
-}
-
 .fifth {
     display: flex;
-   padding: 100px;
-   justify-content: center;
+    justify-content: space-evenly;
+
 }
 
-.signup {
-    margin-left: 50px;
-    margin-top: 50px;
+.newextension {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 500px;
+    margin-left: 10px;
+ 
 }
+
+.qonkur-phone {
+    height: auto;
+
+}
+
+.newextension button {
+    border: black;
+    background-color: #77c63b;
+    color: white;
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.newextension button:hover {
+    background-color: white;
+    color: black;
+    transition-duration: 0.5s;
+}
+
 
 .footer {
     position: fixed;
@@ -121,6 +141,7 @@ body {
 
 .background {
     background-image: linear-gradient(#3a7fd0, #63b7f1);
+
 }
 
 .button {
